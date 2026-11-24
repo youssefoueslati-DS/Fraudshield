@@ -221,3 +221,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data: too large for GitHub
+data/**
+!data/**/
+!data/**/
+
+data/raw/*      
+data/interim/*     
+data/processed/*   
+!data/*/.gitkeep
+.DS_Store
